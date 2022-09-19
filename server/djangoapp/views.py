@@ -60,6 +60,7 @@ def logout_request(request):
     return redirect('djangoapp:index')
 
 # Create a `registration_request` view to handle sign up request
+# just some comment to test CI/CD
 def registration_request(request):
     context = {}
     # If it is a GET request, just render the registration page
